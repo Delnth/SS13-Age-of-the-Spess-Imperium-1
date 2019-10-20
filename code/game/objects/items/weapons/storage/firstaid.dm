@@ -276,11 +276,10 @@
 		if (empty) return
 		new /obj/item/device/healthanalyzer(src)
 		new /obj/item/weapon/reagent_containers/hypospray/stabilize( src )
-		new /obj/item/weapon/reagent_containers/hypospray/stabilize( src )
-		new /obj/item/weapon/reagent_containers/hypospray/stabilize( src )
-		new /obj/item/weapon/reagent_containers/hypospray/stabilize( src )
 		new /obj/item/weapon/reagent_containers/pill/bicaridine( src )
 		new /obj/item/weapon/reagent_containers/pill/kelotane( src )
+		new /obj/item/stack/medical/bruise_pack(src)
+		new /obj/item/stack/medical/ointment(src)
 		return
 
 /obj/item/weapon/storage/firstaid/advanced
@@ -295,10 +294,10 @@
 		new /obj/item/weapon/reagent_containers/syringe/epinephrine( src )
 		new /obj/item/weapon/reagent_containers/pill/bicaridine( src )
 		new /obj/item/weapon/reagent_containers/pill/bicaridine( src )
-		new /obj/item/weapon/reagent_containers/pill/bicaridine( src )
-		new /obj/item/weapon/reagent_containers/pill/dermaline( src )
 		new /obj/item/weapon/reagent_containers/pill/dermaline( src )
 		new /obj/item/weapon/reagent_containers/pill/dermaline( src )
 		new /obj/item/weapon/reagent_containers/syringe/toxic_treatment( src )
 		new /obj/item/weapon/reagent_containers/pill/stimulant( src )
+		new /obj/item/stack/medical/bruise_pack(src)
+		new /obj/item/stack/medical/ointment(src)
 		return

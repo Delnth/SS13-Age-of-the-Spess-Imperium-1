@@ -79,7 +79,9 @@ Medical Doctor
 	H.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/medicus, slot_wear_mask)
 
 	if(H.backbag != 1)
-		H.equip_to_slot_or_del(new /obj/item/weapon/paper/medicus(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/weapon/storage/firstaid/advanced(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/weapon/storage/firstaid/impguard(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/syringe/bruteburn_treatment(H), slot_in_backpack)
 
 /datum/job/igmedic
 	title = "Imperial Guardsman Medic"
