@@ -63,7 +63,7 @@
 "bk" = (/obj/structure/rack,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/obj/item/device/flashlight/seclite,/turf/simulated/floor,/area/centcom{name = "\improper Armory"})
 "bl" = (/obj/structure/mirror,/turf/simulated/wall/polar2,/area/centcom{name = "\improper Dormitories"})
 "bm" = (/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
-"bn" = (/obj/structure/closet/crate/dirty{name = "Imperial Crate"},/obj/item/weapon/cogitator/goleph,/obj/item/clothing/head/kitty,/obj/item/weapon/soulscythe,/obj/item/weapon/gun/energy/plasma/pistol/chaos,/obj/item/weapon/night,/obj/item/ammo_box/magazine/boltermag/inf,/obj/item/toy/syndicateballoon,/turf/simulated/floor{icon_regular_floor = "polar"; icon_state = "polar"},/area/snow/fixed)
+"bn" = (/obj/structure/closet/crate/dirty{name = "Imperial Crate"},/obj/item/weapon/cogitator/goleph,/obj/item/clothing/head/kitty,/obj/item/weapon/soulscythe,/obj/item/weapon/gun/energy/plasma/pistol/chaos,/obj/item/weapon/night,/obj/item/ammo_box/magazine/boltermag/inf,/turf/simulated/floor{icon_regular_floor = "polar"; icon_state = "polar"},/area/snow/fixed)
 "bo" = (/obj/structure/barricade/metal,/obj/structure/barricade/metal{dir = 4},/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "bp" = (/obj/machinery/rack/ration/full,/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
 "bq" = (/obj/machinery/rack/lasgun/full,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor,/area/centcom{name = "\improper Armory"})
@@ -74,7 +74,7 @@
 "bv" = (/obj/machinery/chem_master,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
 "bw" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
 "bx" = (/obj/effect/landmark/start/pharmacologist,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
-"by" = (/obj/machinery/vending/security/ammunition,/turf/simulated/floor,/area/centcom{name = "\improper Armory"})
+"by" = (/obj/machinery/vending/security/ammo,/turf/simulated/floor,/area/centcom{name = "\improper Armory"})
 "bz" = (/obj/machinery/door/airlock{name = "Armory"},/turf/simulated/floor,/area/centcom{name = "\improper Armory"})
 "bA" = (/obj/machinery/door/airlock{name = "Dormitories"; req_access_txt = "0"},/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
 "bB" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
@@ -154,9 +154,9 @@
 "cX" = (/obj/structure/stool/bed/chair/office/dark{dir = 1},/turf/simulated/floor{dir = 2; icon_state = "floor"; tag = "icon-warningcorner"},/area/centcom{name = "\improper Commanding center"})
 "cY" = (/obj/item/weapon/snowshovel/ig970,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "cZ" = (/obj/structure/sign/bluecross,/turf/simulated/wall/polar2,/area/centcom{name = "\improper Medical area"})
-"da" = (/obj/structure/rack,/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/item/weapon/writ,/obj/item/weapon/writ,/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
+"da" = (/obj/structure/rack,/obj/item/aluminumtube4/clamp,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
 "db" = (/obj/structure/rack,/obj/item/stack/cable_coil,/obj/item/stack/cable_coil,/obj/item/stack/cable_coil,/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
-"dc" = (/obj/structure/rack,/obj/item/weapon/bible,/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
+"dc" = (/obj/structure/rack,/obj/item/aluminumtube4/AC,/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
 "dd" = (/turf/simulated/wall/legacy_3,/area/snow/fixed)
 "de" = (/obj/machinery/rack/ration,/turf/simulated/floor/plating{icon = 'icons/turf/snow.dmi'},/area/snow/fixed)
 "df" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/plating{icon = 'icons/turf/snow.dmi'},/area/snow/fixed)
@@ -193,11 +193,10 @@
 "dK" = (/obj/structure/barricade/barbedwire,/obj/structure/barricade/barbedwire{icon_state = "barbed_post"},/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "dL" = (/obj/structure/barricade/barbedwire,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "dM" = (/obj/structure/stool/bed/chair/office/dark{dir = 4},/obj/effect/landmark/start/inq_ordos_xenos,/turf/simulated/floor{dir = 2; icon_state = "floor"; tag = "icon-warningcorner"},/area/centcom{name = "\improper Commanding center"})
-"dN" = (/obj/structure/rack,/obj/item/candle/alt,/obj/item/candle/alt,/obj/item/candle/alt,/obj/item/candle/alt,/obj/item/candle,/obj/item/candle,/obj/item/candle,/obj/item/candle,/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
+"dN" = (/obj/structure/rack,/obj/item/aluminumtube4/turr,/turf/simulated/floor,/area/centcom{name = "\improper Guardsman Outpost"})
 "dO" = (/obj/machinery/door/airlock/glass{name = "Storage"},/turf/simulated/floor,/area/centcom{name = "\improper Storage"})
 "dP" = (/turf/snow,/area/snow/fixed)
 "dQ" = (/obj/machinery/vending/medical,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
-"dR" = (/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/structure/table/reinforced,/obj/item/stack/medical/bruise_pack,/obj/item/stack/medical/bruise_pack,/obj/item/stack/medical/ointment,/obj/item/stack/medical/ointment,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
 "dS" = (/obj/machinery/light{dir = 4},/obj/machinery/rack/pistol/full,/turf/simulated/floor,/area/centcom{name = "\improper Storage"})
 "dT" = (/turf/unsimulated/wall/other,/area/admin)
 "dU" = (/obj/structure/table/ksons,/obj/item/weapon/reagent_containers/glass/bottle/norcacillin,/turf/unsimulated/floor{icon_state = "rcircuit4"},/area/admin)
@@ -493,7 +492,7 @@
 "jy" = (/obj/effect/decal/cleanable/blood/old,/obj/structure/barricade/metal,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "jz" = (/turf/simulated/floor{icon_regular_floor = "polar"; icon_state = "polar"},/area/shuttle/DK/DK2PLANET)
 "jA" = (/obj/machinery/computer/artillerycontrol,/turf/unsimulated/floor{icon_state = "rcircuit4"},/area/admin)
-"jB" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/drinks/flask/heresy,/turf/simulated/floor,/area/centcom)
+"jB" = (/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,/obj/structure/table/reinforced,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
 "jC" = (/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/item/device/revrefull,/obj/structure/table/reinforced,/turf/simulated/floor{icon_regular_floor = "showroomfloor"; icon_state = "showroomfloor"},/area/centcom{name = "\improper Medical area"})
 "jE" = (/obj/machinery/computer/imperialvoxcaster/inq{identity = "<FONT COLOR='blue'>•Imperial Cruiser 'Stargazer'</FONT>"},/obj/structure/table/reinforced,/turf/unsimulated/floor{icon_state = "rcircuit4"},/area/admin)
 "jF" = (/obj/machinery/computer/exterminatus,/turf/unsimulated/floor{icon_state = "rcircuit4"},/area/admin)
@@ -673,6 +672,7 @@
 "mX" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/syndicate/ranged,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "mY" = (/obj/structure/barricade/metal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/snow/fixed)
 "mZ" = (/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/obj/item/documents/syndicate/blue,/turf/simulated/floor,/area/centcom{name = "\improper Dormitories"})
+"na" = (/obj/mecha/combat/sentinel/dk/loaded,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/snow/fixed)
 "nb" = (/obj/machinery/rack/kraks/full,/obj/effect/decal/cleanable/cobweb,/turf/unsimulated/floor,/area/snow/fixed)
 "nc" = (/obj/machinery/rack/ration/full,/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor,/area/snow/fixed)
 "nd" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor,/area/snow/fixed)
@@ -781,6 +781,7 @@
 "pc" = (/obj/structure/table/reinforced,/obj/item/weapon/gun/projectile/handflamer,/turf/simulated/floor/plating/stone,/area/centcom/sob)
 "pd" = (/obj/structure/table/reinforced,/obj/item/weapon/twohanded/required/hflamer/red,/turf/simulated/floor/plating/stone,/area/centcom/sob)
 "pe" = (/obj/machinery/light,/obj/item/weapon/grenade/chem_grenade/incendiary,/obj/item/weapon/grenade/chem_grenade/incendiary,/obj/item/weapon/grenade/chem_grenade/incendiary,/obj/item/weapon/grenade/chem_grenade/incendiary,/obj/structure/table/reinforced,/turf/simulated/floor/plating/stone,/area/centcom/sob)
+"pf" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/drinks/flask/heresy,/obj/item/weapon/reagent_containers/food/drinks/soda_cans/heresy,/turf/simulated/floor,/area/centcom)
 "pg" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/food/drinks/drinkingglass,/obj/item/weapon/reagent_containers/food/drinks/drinkingglass,/turf/unsimulated/floor/snow{icon_state = "snow3"},/area/centcom{name = "\improper Dormitories"})
 "ph" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/glass/bottle/stimulant,/turf/simulated/floor,/area/centcom)
 "pi" = (/obj/structure/table/reinforced,/obj/item/clothing/mask/cigarette/lho,/obj/item/clothing/mask/cigarette/lho,/obj/item/clothing/mask/cigarette/lho,/turf/simulated/floor,/area/centcom)
@@ -838,7 +839,7 @@ aacKababababjviBabababiEiEiEklkoiEabababababcJcJabababababjhlbkqbmlFkqkqlgjhllku
 aacKababababjvababiDabiEiEiEkvabjwababababababababababababjhkwoYkxbBbBkybmknbmbmbmbBbBkckzbmbmjhababababababababiAabababduabababiBabababababiBabababababababababababababababababababababababababababababababababababkIkImykIkImykIkIkIkIkIkIabababababababeeabababiEiEiEmOklababkliEababababababababababcLaa
 aacKababeeabiEkAabababiDiDiDababjwababababababababababababjhkCkZbBkckcbBbmjhjhknjhjhjhjhjhknjhjhababababjgabababababababiBabababababcwababababababiCabiIcYabiDabababeeabababababababababababeeiBababababababababababkImzlPoZmCmLmMmylPmrmNkIababababababababababiAiEmglUkAababkAmQiEababababababababababcLaa
 aacKababababiEkDiDiAabababkAkAkAiEiAababababababababiBeekEjhkClKkxbmkFbmkzjhmmbBkHmnjhmobmbmmpjhababababeeababababababababababiDabiEababababiAiEiDiDiDiDiDiDiNiEababababiAabababababababababababababababababababababmymrmrmPmRmPlPkIlPmSmTkIiBababababababababababiEkEabmiabkElYiEiEababababababababababcLaa
-aacKababababiEiRiDkEabkMkEkEkAkNiEababababababababababababjhbBbBkybBkqkObmjhkcbBbmbmjhbBbBkPmxjhabababababababababababababiNababiDabiEabiBabababiDiDiFabiBiPiDiRiEabababababababababababababababababababababababeeiBmUmVnBnCmRnDmrkInEnFjBkIababababiAabababababdsjxiBabababkAkAiEiEababababababababababcLaa
+aacKababababiEiRiDkEabkMkEkEkAkNiEababababababababababababjhbBbBkybBkqkObmjhkcbBbmbmjhbBbBkPmxjhabababababababababababababiNababiDabiEabiBabababiDiDiFabiBiPiDiRiEabababababababababababababababababababababababeeiBmUmVnBnCmRnDmrkInEnFpfkIababababiAabababababdsjxiBabababkAkAiEiEababababababababababcLaa
 aacKababababiEkBiDkSkUkWkEkEkEjmjwababababababababababababjhmukCkCpgkZkZmvlcbmbmldlejhnJlfbBnrjhabababababababababababiEiDiDiSiCiDiDiEababababiEabiNiDiDiDiDabiGiEabababababababababababababababababababababababababkInGphpinLpjnHmUkIkIkIkIabababababababababababiEktiDababiDababiEiAababababeeababababcLaa
 aacKababababiEiEkElhiEkiababiBabjwababababababababababababjhjhlijhljjhlkjhjhmAnMpkmBjhjhjhjhjhjhabababababababababababiEiHiDabiDiDiDababcwababiEiEiTiTjaiTiTiEiEabiEabababababababeeababababababababiBabababababababkIkInIkIkInIkIkIababababababababababababiAababiEiEmWmXabkAiCkEmDababababababababababcLaa
 aacKababababiEiEiUiEiEiEiTiUiUiEjwabababababababiAababababababababababababjhjhlnlojhjhababababababababababababababababiEiEiPiDiDabiIabababiTiVababiWababiJabababababababababababababkEkEababababababababeeababababababababababababababiBababababiAababababababababiEiEiEmYiUiUiEiEmDabababababababeeababcLaa
@@ -905,7 +906,7 @@ aaaaaaaaaaaaaaaaaaaaaaaacKababababababababababababababababafafafafafabababababab
 aaaaaaaaaaaaaaaaaaaaaaaacKababababababababababababababababafafafafafeeababababababababababcLaaaaaacKababababababababababababababababababababababababababababababababcJaaaaaaaacJaaaaaacKabababababababababababababababababababababababababeeababababababababababababduabababababababababababababababababcLaa
 aaaaaaaaaaaaaaaaaaaaaacKabababababababababababababababababafafafafafabababababababababababcLaaaaaacKabababduabababababababababababababababababababababababababababababcJcJaacJabcLaaaacKababababababababababababababababababababababababababababababababababababababababababababababababeeabababababababcLaa
 aaaaaaaaaaaaaaaaaaaaaacKabababababababababababababababababafafafafafababababdsabababababababcJcJcJababababababababababababababababababababababababababababababababababababcJababcLaaaacKababababababababababababababababababababababababababababababababababababababababababababababababababababababababcLaa
-aaaaaaaaaaaaaaaaaaaaaacKabeZabababababababababababababababafafafafafabababababababababababababababababababababababababababababababababababababababababababababababiBiEiEiEiJababducJcJabiBabababababababababababababababababababababababababababababababababababababababababababababababababcNcNcNcNcNcNaaaa
+aaaaaaaaaaaaaaaaaaaaaacKabeZabababababababababababababababafafafafafabababababababababababababababababababababababababababababababababababababababababababababababiBiEiEiEiJnaabducJcJabiBabababababababababababababababababababababababababababababababababababababababababababababababababcNcNcNcNcNcNaaaa
 aaaaaaaaaaaaaaaaaacJcJababababababababababababababababababafafafafafababababababababababababababababababababababababababababababababababababababababababababababababiEnbncndababiBababababababababababababababababababababababababababababababababababababababababababababababababababababcLaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaacKababababababababababababababababababababafafababafababababababababababababababababababababababababababababababababababababababababababababababababnenfngnhababnhninjababababababababababababababababababababababababababababababababababababababababababababababababababcLaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaacKababababababababababababababababababababafabababafabababababababababababababababababababeeababababababababababababababababeeabababababababababababiEnhnhababababiEiEiEababababababababababababababababababababababababababababababababababababababababababababababababcLaaaaaaaaaaaaaaaaaa
@@ -925,7 +926,7 @@ aacKabababababababababababababahahbDbraMaNaMaMbEbtbPabadadaiaHaIaJaiadadabbPbubm
 aacKababababababababbXbXbXbXbXahahaDaMaMaMbraMnTahahabadadaiaOaPaQaiadadabavblanaobparbpaoavabababagdNaRauauaRioagabababababababoioioioioiababababababababababcLaaaaaaaaaaaaaaaaaaaaaaaacKabababababababababababababababababcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
 aacKababdsababababbXbXjebFjebXbXahahaSnAbJbKbMahahababadadaiaUaVaZaiadadababavavavavavavavavabababagagagdYdYagagagabababababababoioioioioiabababababababduababcLaaaaaaaaaaaaaaaaaaaaaaaacKabababababababababababababababcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
 aacKbababababababababXbibibibXbXbXahahahahahahahabababababafafbbafafabababababcrabcsctctababababababababababababbcabababababababoioioioioiababababababcNcNcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaacNcNababababababababababcNcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
-aacKbabdbdbebebgbgbabhbibibibjdRjCbXahahahahahababababababafafafafafabababababababababcwababababababababababababbcabababababababoioioioioiabababababcLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacNcNcNcNcNcNcNcNcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
+aacKbabdbdbebebgbgbabhbibibibjjBjCbXahahahahahababababababafafafafafabababababababababcwababababababababababababbcabababababababoioioioioiabababababcLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacNcNcNcNcNcNcNcNcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
 aacKbabebebebebebebabvbxbibibGbHbGbXbibjbXababbPafafafafafafafafafafafafafafafabababababababbNbNbNbNbNbNbNbNbNbNbNabababababababababababababababababcLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
 aacKbabIcdbebececfbachcmbibicnbHbGbXbicxbXabababafafafafafafafafafafafafafafafababababababbNbNbObQbRbSbTbNbUbVbWbNbNabababababababababababababababcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa
 aacKbabebebebebebebacobibibibibHbidnbicDbXabababafafjzjzjzjzjzjzjzjzjzjziKafafbPabababababbNbYbSbSbYbSbSbZcacbccbNbNababababeeabababababababcNcNcNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabfbfbfbfbfbfbfbfbfbfbfbfbfbfbfaa

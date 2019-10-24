@@ -70,19 +70,19 @@
 
 
 /obj/item/stack/medical/bruise_pack
-	name = "bruise pack"
-	singular_name = "bruise pack"
-	desc = "A pack designed to treat blunt-force trauma."
-	icon_state = "brutepack"
-	heal_brute = 60
+	name = "Imperial Bandage pack"
+	singular_name = "Imperial Bruises"
+	desc = "A pack designed to treat blunt-force and cutting traumas."
+	icon_state = "impbandage"
+	heal_brute = 40
 	origin_tech = "biotech=1"
 
 /obj/item/stack/medical/ointment
 	name = "ointment"
-	desc = "Used to treat those nasty burns."
+	desc = "Used to treat those nasty burns caused by sisters of battle,potential friendly fire and melta grenades."
 	gender = PLURAL
-	singular_name = "ointment"
-	icon_state = "ointment"
+	singular_name = "impointment"
+	icon_state = "impointment"
 	heal_burn = 40
 	origin_tech = "biotech=1"
 

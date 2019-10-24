@@ -215,7 +215,7 @@
 		new /obj/item/weapon/grenade/empgrenade(src)
 
 /obj/item/weapon/storage/box/lasgunmag
-	name = "box of lasrifle ammunition"
+	name = "Lasgun ammunition pack"
 	desc = "More ammo than you will ever need."
 	icon_state = "lasgunammo"
 
@@ -241,7 +241,7 @@
 		new /obj/item/ammo_box/magazine/autogun(src)
 
 /obj/item/weapon/storage/box/hellgunmag
-	name = "hellgun ammunition"
+	name = "Hellgun ammunition pack"
 	desc = "More ammo than you will ever need."
 	icon_state = "lasgunammo"
 
@@ -252,6 +252,18 @@
 		new /obj/item/ammo_box/magazine/hellgunmag(src)
 		new /obj/item/ammo_box/magazine/hellgunmag(src)
 		new /obj/item/ammo_box/magazine/hellgunmag(src)
+
+/obj/item/weapon/storage/box/rationpack
+	name = "Imperial Ration"
+	desc = "The only thing you need if those canned rations aint for you guardsman."
+	icon_state = "rationpack"
+
+	New()
+		..()
+		new /obj/item/weapon/reagent_containers/food/snacks/rationa(src)
+		new /obj/item/weapon/reagent_containers/food/snacks/rationb(src)
+		new /obj/item/weapon/reagent_containers/food/snacks/rationc(src)
+		new /obj/item/weapon/reagent_containers/food/snacks/rationd(src)
 
 /*
 Callidus Box

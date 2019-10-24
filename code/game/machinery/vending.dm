@@ -918,3 +918,18 @@
 					/obj/item/weapon/plastique = 1,// Plastic explosive. Can send code.
 					)
 	premium = list(/obj/item/ammo_box/magazine/sm45 = 5,/obj/item/weapon/gun/projectile/automatic/deagle/m1911 = 1,)
+
+/obj/machinery/vending/security/ammunition
+	name = "Imperial ammunition vendor"
+	desc = "It's a supplier of ammunition for the Imperial Guard"
+	product_ads = "Don't go into combat unarmed!;Best armoury there is!;Get them before they get you!"
+	icon_state = "sec"
+	icon_deny = "sec-deny"
+	req_access_txt = "1"
+	products = list(/obj/item/ammo_box/magazine/lasgunmag = 50,// Make sure to change these if wrong ~Hannah
+					/obj/item/ammo_box/magazine/lasgunmagpistol = 50,
+					/obj/item/ammo_box/magazine/autogun/drum = 25,
+					/obj/item/ammo_box/magazine/hellgunmag = 25,
+				 	/obj/item/weapon/storage/box/lasgunmag = 5,
+			    	/obj/item/weapon/storage/box/hellgunmag = 5,
+					)

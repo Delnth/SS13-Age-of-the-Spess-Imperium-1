@@ -2598,6 +2598,50 @@
 		reagents.add_reagent("nutriment", 10)
 		bitesize = 2
 
+////////////////////////////////IMPERIAL RATIONS////////////////////////////////////////////
+
+/obj/item/weapon/reagent_containers/food/snacks/rationa
+	name = "Food Packet #A"
+	desc = "An average Imperial Food packet,this one contains what would be a well sealed....fish ? "
+	icon_state = "rationA"
+	filling_color = "#992525"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 5)
+		bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/rationb
+	name = "Food Packet #B"
+	desc = "An average Imperial Food packet,this one contains a piece of tough cheese."
+	icon_state = "rationB"
+	filling_color = "#992525"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 3)
+		bitesize = 2
+
+/obj/item/weapon/reagent_containers/food/snacks/rationc
+	name = "Food Packet #C"
+	desc = "An average Imperial Food packet,this one is labeled 'rodent cake' <font color='green'><i>urgh...lets hope you dont get nurgle rot by that.</i></font>"
+	icon_state = "rationC"
+	filling_color = "#992525"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 40)
+		bitesize = 5
+
+/obj/item/weapon/reagent_containers/food/snacks/rationd
+	name = "Food Packet #D"
+	desc = "An average Imperial Food packet,this one contains some white paste...It cant be bad to try it out,right ?"
+	icon_state = "rationD"
+	filling_color = "#992525"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 10)
+		bitesize = 3
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
 /obj/item/weapon/reagent_containers/food/snacks/benedict
 	name = "eggs benedict"
 	desc = "There is only one egg on this, how rude."

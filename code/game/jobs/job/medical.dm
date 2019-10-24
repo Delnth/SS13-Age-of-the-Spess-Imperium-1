@@ -10,7 +10,7 @@ Chief Medical Officer
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Ecclesiarchy"
-	selection_color = "#ffddf0"
+	selection_color = "#11a3b5"
 	req_admin_notify = 0
 	minimal_player_age = 7
 
@@ -44,7 +44,8 @@ Chief Medical Officer
 	E.implanted = 1
 
 	if(H.backbag != 1)
-		H.equip_to_slot_or_del(new /obj/item/weapon/paper/hospitalar(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/device/healthanalyzer/guardsman(H), slot_in_backpack)
+
 	H.rename_self("first_female")
 
 /*
@@ -59,7 +60,7 @@ Medical Doctor
 	total_positions = 5
 	spawn_positions = 3
 	supervisors = "Sister Hospitaller"
-	selection_color = "#ffeef0"
+	selection_color = "#118593"
 
 	default_pda = /obj/item/device/pda/medical
 	default_headset = /obj/item/device/radio/headset/headset_med
@@ -92,7 +93,7 @@ Medical Doctor
 	total_positions = 8
 	spawn_positions = 8
 	supervisors = "Commissar and your Platoon Sergeant."
-	selection_color = "#ffeeee"
+	selection_color = "#11717d"
 	minimal_player_age = 7
 	var/list/dep_access = null
 
@@ -110,7 +111,17 @@ Medical Doctor
 	H.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/imperialarmor/medic(H), slot_wear_suit)
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/imperialhelmet/medic(H), slot_head)
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/lasgun/kantrael(H), slot_s_store)
-	H.equip_to_slot_or_del(new /obj/item/weapon/storage/belt/medical/(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/weapon/storage/belt/medic(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/health/night(H), slot_glasses)
 	H.equip_to_slot_or_del(new /obj/item/weapon/storage/firstaid/advanced(H), slot_in_backpack)
 	H.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/hypospray/revival(H), slot_in_backpack)
+	H.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/syringe/bruteburn_treatment(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/syringe/bruteburn_treatment(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/stack/medical/bruise_pack(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/stack/medical/bruise_pack(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/stack/medical/ointment(H), slot_belt)
+	H.equip_to_slot_or_del(new /obj/item/stack/medical/ointment(H), slot_belt)
+
+
+
 

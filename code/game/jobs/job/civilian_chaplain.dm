@@ -14,6 +14,8 @@ Chaplain
 	selection_color = "#dddddd"
 
 	default_pda = /obj/item/device/pda/chaplain
+	default_backpack = /obj/item/weapon/storage/backpack/impguard
+	default_satchel = /obj/item/weapon/storage/backpack/impguard
 
 	access = list(access_morgue, access_chapel_office, access_crematorium, access_maint_tunnels)
 	minimal_access = list(access_morgue, access_chapel_office, access_crematorium)

@@ -283,10 +283,10 @@
 
 /obj/item/weapon/storage/belt/medic
 	name = "guardsman medic belt"
-	desc = "A standard issue belt given to Guardsmen Medics of the Imperial Guard. Designed to hold various medical supplies.."
-	icon_state = "guardsmanmedic_belt"
-	item_state = "guardsmanmedic_belt"
-	storage_slots = 7
+	desc = "A standard issue belt given to Guardsmen Medics of the Imperial Guard. Designed to hold various medical supplies."
+	icon_state = "igmedicalbelt"
+	item_state = "igmedicalbelt"
+	storage_slots = 10
 	can_hold = list(
 		/obj/item/device/healthanalyzer,
 		/obj/item/weapon/dnainjector,
@@ -299,12 +299,14 @@
 		/obj/item/weapon/storage/fancy/cigarettes,
 		/obj/item/weapon/storage/pill_bottle,
 		/obj/item/stack/medical,
-		/obj/item/device/flashlight/pen
+		/obj/item/device/flashlight/pen,
+ 	    /obj/item/stack/medical/bruise_pack,
+        /obj/item/stack/medical/ointment,
+	    /obj/item/weapon/reagent_containers/syringe/bruteburn_treatment,
+        /obj/item/device/revrefull
 	)
 
-/obj/item/weapon/storage/belt/medic/start
-
-/obj/item/weapon/storage/belt/medic/start/New()
+/obj/item/weapon/storage/belt/medic/New()
 	..()
 	new /obj/item/device/healthanalyzer/guardsman
 	new /obj/item/weapon/reagent_containers/syringe
@@ -313,3 +315,6 @@
 	new /obj/item/weapon/reagent_containers/glass/bottle/vial/dylovene
 	new /obj/item/weapon/reagent_containers/glass/bottle/vial/inaprovaline
 	new /obj/item/weapon/reagent_containers/glass/bottle/vial/tramadol
+	new /obj/item/stack/medical/bruise_pack
+	new /obj/item/stack/medical/ointment
+	new /obj/item/weapon/reagent_containers/syringe/bruteburn_treatment

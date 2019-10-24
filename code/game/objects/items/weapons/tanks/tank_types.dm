@@ -135,6 +135,14 @@
 	volume = 800
 	flags = STOPSPRESSUREDMAGE|NODROP
 
+/obj/item/weapon/tank/oxygen/LMback
+	name = "Lamenter Marine Powersource"
+	desc = "A batpack for the lamenter space marines"
+	icon_state = "lamenter-pack"
+	item_state = "lamenter-pack"
+	volume = 800
+	flags = STOPSPRESSUREDMAGE|NODROP
+
 
 /*
  * Anesthetic

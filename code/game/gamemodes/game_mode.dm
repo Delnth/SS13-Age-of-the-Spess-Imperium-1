@@ -203,7 +203,7 @@
 			comm.messagetitle.Add("Segmentum Command")
 			comm.messagetext.Add(intercepttext)
 
-	priority_announce("INCOMING TRANSMISSION FROM SEGMENTUM COMMAND: You have been assigned in this part of the planet to hold this vital area,current data has revealed an Ork ship crashed nearby your location.Follow the instructions from your regiment general and commissar,we will be watching your progress,the Emperor protects.", "Attention", 'sound/AI/radio.ogg')
+	priority_announce("INCOMING TRANSMISSION FROM SEGMENTUM COMMAND: // OBJECTIVE: ERRADICATE NON-IMPERIAL FORCES IN THE ASSIGNED PLANETARY SECTION. ", "Attention", 'sound/AI/radio.ogg')
 
 
 

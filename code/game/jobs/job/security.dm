@@ -16,7 +16,7 @@ Head of Shitcurity
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Regiment General"
-	selection_color = "#ffdddd"
+	selection_color = "#d11919"
 	req_admin_notify = 1
 	minimal_player_age = 14
 
@@ -35,7 +35,7 @@ Head of Shitcurity
 			            access_heads, access_hos, access_RC_announce, access_keycard_auth, access_gateway)
 
 /datum/job/commissar/equip_items(var/mob/living/carbon/human/H)
-	H.verbs += /mob/living/carbon/human/proc/renderaid									 //This is how we get the verb!
+	H.verbs += /mob/living/carbon/human/proc/renderaid //This is how we get the verb!
 	H.equip_to_slot_or_del(new /obj/item/clothing/under/det(H), slot_w_uniform)
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/swat/comissar2(H), slot_shoes)
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/commissarcap(H), slot_head)
@@ -44,6 +44,9 @@ Head of Shitcurity
 	H.equip_to_slot_or_del(new /obj/item/ammo_box/magazine/bpistolmag(H), slot_in_backpack)
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/bpistol(H), slot_s_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/chainsword(H), slot_belt)
+	var/obj/item/weapon/implant/loyalty/E = new/obj/item/weapon/implant/loyalty(H)
+	E.imp_in = H
+	E.implanted = 1
 
 	if(H.backbag == 1)
 		H.equip_to_slot_or_del(new /obj/item/weapon/handcuffs(H), slot_l_store)
@@ -72,7 +75,7 @@ Detective
 	total_positions = 5
 	spawn_positions = 1
 	supervisors = "Segmentum Command and the Regimental General"
-	selection_color = "#ffeeee"
+	selection_color = "#377b0b"
 	minimal_player_age = 7
 
 	default_headset = /obj/item/device/radio/headset/headset_sec
@@ -93,7 +96,9 @@ Detective
 	H.equip_to_slot_or_del(new /obj/item/weapon/chainsword(H), slot_belt)
 	H.equip_to_slot_or_del(new /obj/item/weapon/grenade/krak(H), slot_r_store)
 	H.equip_to_slot_or_del(new /obj/item/ammo_box/magazine/lasgunmag(H), slot_l_store)
-	H.equip_to_slot_or_del(new /obj/item/weapon/storage/box/autogunmag(H), slot_in_backpack)
+	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/lasgun/kantrael(H), slot_in_backpack)
+	H.equip_to_slot_or_del(new /obj/item/ammo_box/magazine/lasgunmagpistol(H), slot_in_backpack)
+	H.equip_to_slot_or_del(new /obj/item/weapon/storage/box/rationpack(H), slot_in_backpack)
 
 	spawn(10)
 		var/weaponchoice = input(H, "Select a weapon.","Weapon Selection") as null|anything in list("Autogun","Imperial Flamer", "Lasgun (Fully Equipped)")
@@ -117,20 +122,23 @@ Warden
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "Commissar"
-	selection_color = "#ffeeee"
+	selection_color = "#30680b"
 	minimal_player_age = 0
+
+	default_backpack = /obj/item/weapon/storage/backpack/impguard
 
 	access = list(access_security, access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_court, access_brig)
 	minimal_access = list(access_sec_doors, access_forensics_lockers, access_morgue, access_maint_tunnels, access_court)
 
 /datum/job/ig_guard_sergeant/equip_items(var/mob/living/carbon/human/H)
-	H.verbs += /mob/living/carbon/human/proc/renderaid									 //This is how we get the verb!
+	H.verbs += /mob/living/carbon/human/proc/sargecharge				 //This is how we get the verb!
 	H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/security(H), slot_w_uniform)
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/imperialboots(H), slot_shoes)
 	H.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/imperialarmor/leader(H), slot_wear_suit)
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/sgtheadset(H), slot_head)
 	H.equip_to_slot_or_del(new /obj/item/weapon/chainsword(H), slot_belt)
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/lasgun(H), slot_s_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/storage/box/rationpack(H), slot_in_backpack)
 	if(H.backbag == 1)
 		H.equip_to_slot_or_del(new /obj/item/weapon/handcuffs(H), slot_l_hand)
 	else
@@ -165,7 +173,7 @@ Security Officer
 	total_positions = 100
 	spawn_positions = 50
 	supervisors = "Commissar and your Platoon Sergeant."
-	selection_color = "#ffeeee"
+	selection_color = "#3a9101"
 	minimal_player_age = 7
 	var/list/dep_access = null
 
@@ -186,6 +194,7 @@ Security Officer
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/lasgun(H), slot_s_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/grenade/krak(H), slot_r_store)
 	H.equip_to_slot_or_del(new /obj/item/ammo_box/magazine/lasgunmag(H), slot_l_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/storage/box/rationpack(H), slot_in_backpack)
 
 /datum/job/ig_guardsman/get_access()
 	var/list/L = list()

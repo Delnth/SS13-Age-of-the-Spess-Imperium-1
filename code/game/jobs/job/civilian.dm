@@ -11,7 +11,7 @@ Inquisitor
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Ordo Hereticus"
-	selection_color = "#dddddd"
+	selection_color = "#6c1405"
 	var/global/lawyers = 0 //Counts lawyer amount
 	default_backpack = /obj/item/weapon/storage/backpack/inq
 	default_satchel = /obj/item/weapon/storage/backpack/inq
@@ -41,7 +41,6 @@ Inquisitor
 	H.equip_to_slot_or_del(new /obj/item/device/pda/lawyer(H), slot_in_backpack)
 	H.equip_to_slot_or_del(new /obj/item/weapon/powersword/pknife(H), slot_belt)
 	H.equip_to_slot_or_del(new /obj/item/device/hdetector(H), slot_in_backpack)
-	H.equip_to_slot_or_del(new /obj/item/weapon/paper/inq(H), slot_in_backpack)
 	H.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/inquisitor(H), slot_gloves)
 	H.faction = "Inquisitor"
 	if (prob(50))

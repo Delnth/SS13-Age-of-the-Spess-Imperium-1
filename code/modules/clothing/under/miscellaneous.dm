@@ -525,3 +525,11 @@
 	icon_state = "rebeluniform"
 	item_state = "rebeluniform"
 	item_color = "rebeluniform"
+
+/obj/item/clothing/under/RICARDOUNIFORM
+	name = "Ricardo's thong"
+	desc = "<font color='red'><i>HOLY SIGMAR BLESS THIS RAVAGED BODY!.</i></font>"
+	icon_state = "ricardothong"
+	item_state = "ricardothong"
+	item_color = "ricardothong"
+	armor = list(melee = 80, bullet = 80, laser = 95, energy = 95, bomb = 85, bio = 95, rad = 95)

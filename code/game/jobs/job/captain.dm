@@ -2,7 +2,7 @@
 Captain
 */
 /datum/job/general
-	title = "General"
+	title = "Regimental General"
 	flag = GENERAL
 	department_head = list("Centcom")
 	department_flag = ENGSEC
@@ -10,7 +10,7 @@ Captain
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The System Governor, Adeptus Administratum and the Emperor."
-	selection_color = "#ccccff"
+	selection_color = "#2c8a28"
 	req_admin_notify = 1
 	minimal_player_age = 14
 

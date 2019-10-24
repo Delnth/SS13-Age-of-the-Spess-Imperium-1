@@ -10,7 +10,7 @@ Chief Engineer
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Adeptus Mechanicus and the Omnissiah"
-	selection_color = "#ffeeaa"
+	selection_color = "#d95e08"
 	req_admin_notify = 1
 	minimal_player_age = 7
 
@@ -39,7 +39,6 @@ Chief Engineer
 	if(H.backbag != 1)
 		H.equip_to_slot_or_del(new /obj/item/weapon/melee/telebaton(H), slot_in_backpack)
 		H.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/syringe(H), slot_in_backpack)
-		H.equip_to_slot_or_del(new /obj/item/weapon/paper/magos(H), slot_in_backpack)
 
 /datum/job/magos/get_access()
 	return get_all_accesses()
@@ -48,7 +47,7 @@ Chief Engineer
 Station Engineer
 */
 /datum/job/explorator
-	title = "Explorator"
+	title = "Tech Priest"
 	flag = EXPLORATOR
 	department_head = list("Magos")
 	department_flag = ENGSEC
@@ -56,7 +55,7 @@ Station Engineer
 	spawn_positions = 5
 	faction = "Station"
 	supervisors = "the Magos"
-	selection_color = "#fff5cc"
+	selection_color = "#d35c09"
 
 	default_pda_slot = slot_l_store
 	default_headset = /obj/item/device/radio/headset/headset_eng
